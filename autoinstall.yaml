@@ -1,0 +1,13 @@
+#cloud-config
+autoinstall:
+  version: 1
+  identity:
+    hostname: ubuntu-desatendida
+    password: "$6$/i3K7KpK95GTBtZn$4aiNm4/bSw2xWni3AN8oBrsbyLVEGhDNsNoL2SzFZkbFV44qmB0b9vACtCtDtO/rE21W8PDWZlsvKvC91GLE11"
+    username: mayana
+  packages:
+    - vim
+    - nano
+    - neofetch
+    - emacs
+    - gdb
